@@ -1,0 +1,113 @@
+{
+  "main": {
+    "id": "d0bc5b79bdd20248",
+    "type": "split",
+    "children": [
+      {
+        "id": "440f851fc94d7b54",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Collector's Fallacy.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aabea9d953d91a65",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8304fa980d8012f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d7950feed80388c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1efeb650294e8340",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "91fbe2b853d13827",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9357996b3d31b71f",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b2af70714505c7c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f79ae00ae945262a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Collector's Fallacy.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8eb654b450f44613",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "440f851fc94d7b54",
+  "lastOpenFiles": [
+    "Collector's Fallacy.md"
+  ]
+}
