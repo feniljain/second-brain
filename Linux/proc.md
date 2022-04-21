@@ -1,0 +1,2 @@
+- /proc is a filesystem which helps us get insights into internal kernel data structures and also change certain kernel parameters during it's runtime ( sysctl )
+- One can go to `/proc/<pid>/maps` to see all the mapped memory regions and their access permissions, for a process with given pid

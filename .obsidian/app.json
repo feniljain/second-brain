@@ -4,5 +4,7 @@
   "spellcheck": true,
   "trashOption": "local",
   "alwaysUpdateLinks": true,
-  "vimMode": true
+  "vimMode": true,
+  "foldIndent": false,
+  "showLineNumber": true
 }

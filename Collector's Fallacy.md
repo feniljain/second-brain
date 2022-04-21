@@ -10,7 +10,7 @@ So I read [this](https://zettelkasten.de/posts/collectors-fallacy/) article and 
 
 In simple terms, it is pseudo-satisfaction which one gets just by collecting links, though not actually working towards preserving the information in your head by note-taking/timely revision.
 
-## How to overcome it(Possible solution)?
+## How to overcome it (Possible solution)?
 We will follow something called `Knowledge Cycle` to overcome it:
 - Research for one hour and no more. Process all the information gathered in this one hour and then only proceed.
 - Do a quick review of the cycle: How did it go? What new did you learn? Was the time span enough for you?

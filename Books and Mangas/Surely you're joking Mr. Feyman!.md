@@ -1,0 +1,67 @@
+- Chapter `He fixes radios by thinking!`
+	- Page 9: "I can't just leave it after I've found out so much about it. I have to keep going to find out ultimately what is the matter with it in the end"
+	- Page 12: "But the whole problem of discovering what was the matter, and figuring out what you have to do to fix it--that was interesting to me, like a puzzle."
+- Chapter `Who stole the door?`
+	- Page 24: "I don't know what's the matter with people: they don't learn by understanding; they learn by some other way--by rote, or something. Their knowledge is so fragile!"
+	-> Maybe I am lucky I am not in a field where rote learning can help, CS ftw!
+- Chapter `Always trying to escape`
+	- Page 36
+		- "I wonder why. I wonder why.
+		  I wonder why I wonder
+		  I wonder why I wonder why
+		  I wonder why I wonder!"
+- Chapter `Surely you're joking, Mr. Feyman!`
+	- Page 53
+		- "So MIT was good, but Slater was right two warn me to go to another school for my graduate work. And I often advise my students the same way. Learn what the rest of the world is like. The variety is worthwhile."
+	- Page 58
+		- "All the time you're saying to yourself, 'I could do that, but I won't' -- which is just another way of saying that you can't"
+- Chapter `A Map of the Cat?`
+	- Page 60
+		- "I wanted to make the idea of a theory clear by analogy. In the case of the brick, my next question was going to be, 'What about the inside of the brick?' -- and I would then point out that no one has ever seen the inside of a brick. Everytime you break the brick, you only see a surface. That the brick has an inside is a simple theory which helps us understand things better."
+	- Page 62
+		- "They had wasted all their time memorizing stuff like that, when it could be looked up in fifteen minutes"
+		-> Lesson: Your brain is not made for memorizing things, it's for creative thinking, have an index which can help u look up things
+- Chapter `Mixing Paints`
+	- Page 73
+		- "I've very often made mistakes in my physics by thinking the theory isn't as good as it really is, thinking that there are lots of complications that are going to spoil it -- and attitude that anything can happen, in spite of what you're pretty sure should happen."
+		-> Happens with me everyday in programming
+- Chapter `The Amateur Scientist`
+	- Page 81
+		- "I'd play around with selenium"
+		-> We found our SDET lol
+- Chapter `Testing Bloodhounds`
+	- Page 97
+		- "I discovered that while bloodhounds are indeed quite capable, humans are not as incapable as they think they are: it's just that they carry their nose so high off the ground!"
+- Chapter `The Dignified Professor`
+	- Page 168
+		- "It was a brilliant idea: You have no responsibility to live up to what other people think you ought to accomplish. I have no responsibility to be like they expect me to be. It's their mistake, not my failing."
+- Chapter `An Offer You Must Refuse`
+	- Page 233
+		- "When you're young, you have all these things to worry about -- should you go there, what about your mother. And you worry, and try to decide, but then something else comes up. It's much easier to just plain _decide_."
+- Chapter `The 7 Percent Solution`
+	- Page 255
+		- "Since then I never pay any attention to anything by "experts".  ............  I'll never make that mistake again, reading the experts' opinions. Of course, you only live one life and you make all your mistakes, and learn what not to do, and that's the end of you."
+- Chapter `But Is It Art?`
+	- Page 261
+		- "When I tried to show him how an electromagnet works by making a little coil of wire and hanging a nail on a piece of string. I put the voltage on, the nail swung into the coil and Jerry said, 'Ooh! It's just like fucking!'  So that was the end of that."
+	- Page 262-263
+		- "So the drawing teacher has this problem of communicating how to draw by osmosis and not by instruction, while the physics teacher has the problem of always teaching techniques, rather than the spirit, of how to go about solving physical problems."
+	- This chapter had a lot of nudity talk :joy:
+- Chapter `Is Electricity Fire?`
+	- Page 283
+		- "There were a lot of fools at that conference -- pompous fools -- and pompous fools drive me up the wall. Ordinary fools are all right ; you can talk to them, and try to help them out. But the pompous fools -- guys who are fools and are covering it all over and impressing people as to how wonderful they are with all this hocus pocus -- THAT, I CANNOT STAND!"
+- Chapter `Bringing Culture to the Physicists`
+	- Page 313
+		- "I remembered him telling me how the Mayans had invented the zero and had done many interesting things."
+			- Ummm.....what? Mayans invented zero?
+- Chapter `Altered States`
+	- Page 335
+		- "Ordinarily it would take me about fifteen minutes to get a hallucination going, but on few occasions, when I smoked some **marijuana** beforehand, it came very quickly. But fifteen minutes was fast enough for me."
+			- Chad Feynman smoked weed too
+- Chapter `Cargo Cult Science`
+	- Page 337
+		- "One of my most pleasurable experiences has been to sit in one of those baths and watch the waves crashing onto the rocky shore below, to gaze into the clear blue sky above, and to study a beautiful nude as she quietly appears and settles into the bath with me."
+	- Page 340
+		- "So it's the implication which has been conveyed, not the fact, which is true, and the difference is what we have to deal with."
+	- Page 342
+		- "I would like to add something that's not essential to the science, but something I kind of believe, which is that you should not fool the layman when you're talking as a scientist."

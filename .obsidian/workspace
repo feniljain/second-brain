@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "440f851fc94d7b54",
+        "id": "0e20be8c3d29da38",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Collector's Fallacy.md",
+            "file": "Books and Mangas/Surely you're joking Mr. Feyman!.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Collector's Fallacy.md",
+                "file": "Books and Mangas/Surely you're joking Mr. Feyman!.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,8 +106,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "440f851fc94d7b54",
+  "active": "0e20be8c3d29da38",
   "lastOpenFiles": [
-    "Collector's Fallacy.md"
+    "Books and Mangas/Surely you're joking Mr. Feyman!.md",
+    "webrtc/webrtc.md",
+    "Books and Mangas/3 days of happiness.md",
+    "eBPF/eBPF Data Structures.md",
+    "eBPF/eBPF.md",
+    "C and CPP/When to use new keyword in C++.md",
+    "C and CPP/ABI.md",
+    "jk.md",
+    "mediasoup/mediasoup-client.md",
+    "Pointers vs References.md"
   ]
 }
