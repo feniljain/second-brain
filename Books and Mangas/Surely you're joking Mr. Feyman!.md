@@ -12,7 +12,7 @@
 		  I wonder why I wonder!"
 - Chapter `Surely you're joking, Mr. Feyman!`
 	- Page 53
-		- "So MIT was good, but Slater was right two warn me to go to another school for my graduate work. And I often advise my students the same way. Learn what the rest of the world is like. The variety is worthwhile."
+		- "So MIT was good, but Slater was right to warn me to go to another school for my graduate work. And I often advise my students the same way. Learn what the rest of the world is like. The variety is worthwhile."
 	- Page 58
 		- "All the time you're saying to yourself, 'I could do that, but I won't' -- which is just another way of saying that you can't"
 - Chapter `A Map of the Cat?`

@@ -1,0 +1,1 @@
+- Execution of a C program doesn't start at `main()`, it actually starts at `_start()`

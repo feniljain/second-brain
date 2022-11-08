@@ -1,0 +1,1 @@
+- Understand #subtyping in typesystem by considering types as sets and types being subset of each other is subtyping!

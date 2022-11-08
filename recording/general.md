@@ -1,0 +1,3 @@
+- Handling failures in recording due to worker crash
+	- We can either produce segments on fly and keep storing them in an external storage ( for e.g. s3 ) ( external storage means some place/machine not on the place recording is happening )
+	- Or what you can do is, create a central volume which is mounted on every worker and every worker writes to that itself, so if the worker crashes, the data still remains on the volume

@@ -1,0 +1,2 @@
+- Bloom filters optimize for memory usage, not for memory access.
+	- General rule of thumb according to [this](https://blog.cloudflare.com/when-bloom-filters-dont-bloom/) article, use bloom filters when your memory access size is less than that of L3 cache ( tho I doubt this a bit, how are so many production systems using it efficiently then? Maybe they are using cuckoo filter )

@@ -1,0 +1,2 @@
+- 13-05-22
+	- So today I was reading "The Final Empire, First Mistborn Novel" and it is kinda a hefty book. I was near the end of it and my father enters the room, he sees my progress and surprisingly asks me "if I completed this much of the book", and I replied yes, in fact in a very happy and proud tone( book had no pictures and is the longest non-academia book I have read till date ). Next thing he asks me is if he can buy me a Gita or Ramayana next.

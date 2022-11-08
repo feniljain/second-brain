@@ -1,0 +1,1 @@
+- If you follow pattern of different DB for each microservice, then one of the problems we face is around foreign key relations when it's needed across DBs and hence you would have to manually maintain and verify them, e.g. In Dyte, we had livestreaming-ms which needed foreign key relations with organization table, but we couldn't do it.

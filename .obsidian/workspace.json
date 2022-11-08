@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0e20be8c3d29da38",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "recording/general.md",
-            "mode": "source",
-            "source": false
+        "id": "da448bd60d445722",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "168cafbfd623470b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -31,7 +33,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -77,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "recording/general.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,17 +109,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0e20be8c3d29da38",
+  "active": "168cafbfd623470b",
   "lastOpenFiles": [
+    "programming-languages/rust/RAII.md",
+    "programming-languages/rust/general.md",
+    "programming-languages/elixir/Interesting Points Observed While Learning.md",
+    "Perfect Commit.md",
+    "recording/general.md",
+    "general.md",
     "microservices/general.md",
     "DSA/bloom-filters.md",
     "life-hacks/general.md",
-    "assembly & hardware/general.md",
-    "Linux/general.md",
-    "Linux/shell-scripting/shell-scripting.md",
-    "log/fun log.md",
-    "typescript/general.md",
-    "type-system/general.md",
-    "rust/general.md"
+    "assembly & hardware/general.md"
   ]
 }

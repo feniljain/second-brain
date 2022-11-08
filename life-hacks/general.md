@@ -1,0 +1,12 @@
+- [How to keep your emotions in control while having a heated argument](https://hbr.org/2017/12/how-to-control-your-emotions-during-a-difficult-conversation)
+	- Body enters "fight or flight" mode which causes prefrontal cortex, which is the hub for rational thinking, to stop working. We need to get it back on track.
+	- One way to do that is `Breathe`, count inhale and exhale upto 6 or 10. Feel the air going down your nose to throat and further.
+	- `Focus on your body`, don't sit still, that may tense up your body, try to take a small walk, if that is not possible any activity like crossing your fingers, or feeling the ground under your feet should do
+	- `Try saying a mantra`, eg.s in article:
+		- "Go to neutral"
+		- "This isn't about me"
+		- "This will pass"
+		- "This is about the business"
+	- `Acknowledge and label your feelings`, better explained in article ig
+	- `Take a break`, don't make it seem like you want to escape the situation, instead keep the walkaways natural and give yourself some think to cool down and think.
+	- Don't tell the opposite person these tips while having the discussion, no one would want to be taught in this situation, instead take a bite and let the other person vent. It would be hard to not vent back, you can visualize word going over your shoulders instead of going to the the body, this can help in keeping your calm. Be sure to not seem aloof while doing this.

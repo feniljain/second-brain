@@ -1,0 +1,4 @@
+- Autochrome and difftastic represent diffing as a **shortest path problem** on a directed acyclic graph. [ Source: https://www.wilfred.me.uk/blog/2022/09/06/difftastic-the-fantastic-diff/ ] #diffing #graphs
+- There's a type of hashing where hashing is locality-sensitive ( = similar inputs will receive similar hash function outputs ), and it's known as Perceptual Hashing
+	- For reverse image search Canva built, they used pHash ( popular perceptual hash function ) and hamming distance to find the difference between two images
+	- source: https://blog.quastor.org/p/canva-built-reverse-image-search-system

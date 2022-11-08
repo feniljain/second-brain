@@ -1,0 +1,5 @@
+- So in #typescript, union of two objects only contains properties common between both and intersection of two objects gives all the properties present in both types
+	- While if you consider the same with types, it is the opposite
+	- Then `unkown` is the final superset of all types - it contains every other type
+	- And `never` (equal to empty set) - it is contained in every other type
+	- `any` is weird because it's the subset **and** the superset of every type. ( Fk `any` )
