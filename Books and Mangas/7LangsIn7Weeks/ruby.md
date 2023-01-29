@@ -1,0 +1,60 @@
+- `puts` function returns `nil`, a wasted opportunity on not returning length of the string instead?
+- `'ruby' == "ruby"` yields `true`
+	- But templating strings is only allowed with `""` 
+		- and also things like `\n`
+	- `''` tells ruby to interpret strings literally
+- From book:
+```
+In fact, every piece of code in Ruby returns something.
+```
+- So it's an expression based language
+- Everything in Ruby is an object, even a number
+	- So you can do `.methods` on literally anything and you will get methods related with it, try `7.methods` for e.g.
+	 - everything in Ruby has a common ancestor, `Object`
+- There's 
+	- `if` <> `unless`
+	- `while` <> `until`
+- String operations return a new string
+	- Maybe it has strong string interning under the hood?
+- Ranges in ruby are both ends inclusive
+- It also similar notion of adding `?` to functions/methods which return boolean
+- ruby's `to_i` on a string can convert `12\n` to 12, wOw
+- Ruby also has rust style last expression return from functions.
+	- Also functions are also objects xD
+ - Arrays
+	 - Indexing using an out of bounds number returns `nil` instead of an error
+		 - Bad decision, maybe cause array can also contain `nil` , so an incorrect index access can got unnoticed and unexpected bugs can arise
+		  - Also it supports negative indexing like python
+		  - Ranges are also supported for slicing
+   - Also for some reason `puts nil` , prints a newline and `print nil` prints nothing
+	   - behaviour of puts is kinda surprising
+- Ruby also has elixir type atoms/symbols: `:hunlo`
+- HashMaps in rust  = Hashes in rust
+	- Array indexing and hash key access is same 
+ - Braces are optional for the last parameter of a function
+ - It has two syntax for code blocks
+	 - `{}`
+	 - `do end`
+ - Extension methods can be set just by redefining class with same name and writing the extended function into it
+ - Blocks 
+	 - can be called with `.call` syntax
+	 - can be passed around, they are actually closures
+  - Classes
+	  - Ruby does not support multiple inheritance
+	  - Ruby names it's constructors `initialize`
+	  - Instance variables are to be prepended with `@`
+	  - Class variables are to be prepended with `@@`
+	   - Also I am scared how they use two cases liberally:
+		   - `CamelCase` preferred for class names
+		   - `snake_case` for instance variables
+	 - Ruby uses mixins ( called modules here ) instead of multiple inheritance
+  - It has a spaceship operator, a <=> b, it returns: 
+	  - -1 if b is greater 
+	  - 1 if a is greater and 
+	  - 0 otherwise ( i.e. a == b )
+- Arguments
+	- Variadic arguments support using `*`
+	- Default args
+	- Named args
+	- Keyword args
+	- a variable argument needs to be **after** all your required & optional args and before any keyword arguments

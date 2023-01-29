@@ -3,3 +3,6 @@
 	- Then `unkown` is the final superset of all types - it contains every other type
 	- And `never` (equal to empty set) - it is contained in every other type
 	- `any` is weird because it's the subset **and** the superset of every type. ( Fk `any` )
+ - Typescript uses set theoretic type system
+	 - Read `extends` as `is a subset of`
+		 - So `A extends B` becomes `A is a subset of B`

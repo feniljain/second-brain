@@ -1,0 +1,2 @@
+ Why android forked linux kernel ( on of the reasons, source: https://fxtwitter.com/daminetreg/status/1617310483589246977):
+	- They have an intermediate lowmemorykiller service that informs the process that need to reduce their load, while linux does only have oom.

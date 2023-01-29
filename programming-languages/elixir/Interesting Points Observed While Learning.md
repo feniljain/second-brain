@@ -2,7 +2,7 @@
 	- Doubt: Does this go in global constants section of ELF?
 - Lists in elixir are implemented using linked lists, so finding length will be an O(N) operation
 	- And similarly prepending to a list is usually faster than appending
-	- And the way you prepend is `["pi" | list]`
+		- And the way you prepend is `["pi" | list]`
 	- And the way you append is `list ++ ["Cherry"]
 		- This seems like making a new list and appending that with old linked list
 		- While prepending one seems like you are making a list by doing an `OR` of a variable and a list ( I actually tried to do this, and a `OR` between a string and a list is not possible xD )
@@ -74,3 +74,8 @@ def leap_year?(year) do
 end
 ```
 - Their LSP sucks big time!
+- Elixir has two different structures, charlists and strings
+	- Strings are denoted by `""`
+	- Charlists are denoted by `''`
+		- These are like lists and all lists operations can be performed on it
+		- It is actually a list of unicode values of the character at a given position

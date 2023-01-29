@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "da448bd60d445722",
+        "id": "b3875a9011715f35",
         "type": "tabs",
         "children": [
           {
-            "id": "168cafbfd623470b",
+            "id": "12fb5a3af28c7f1e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Books and Mangas/7LangsIn7Weeks/ruby.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "kernel",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Books and Mangas/7LangsIn7Weeks/ruby.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,17 +114,26 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "168cafbfd623470b",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "12fb5a3af28c7f1e",
   "lastOpenFiles": [
-    "programming-languages/rust/RAII.md",
-    "programming-languages/rust/general.md",
-    "programming-languages/elixir/Interesting Points Observed While Learning.md",
-    "Perfect Commit.md",
-    "recording/general.md",
-    "general.md",
-    "microservices/general.md",
+    "Books and Mangas/7LangsIn7Weeks/ruby.md",
+    "compilers/general.md",
     "DSA/bloom-filters.md",
+    "eBPF/eBPF Data Structures.md",
+    "eBPF/eBPF.md",
+    "Garbage Collector/Generational Garbage Collectors.md",
+    "Garbage Collector/GarbageCollector.md",
     "life-hacks/general.md",
-    "assembly & hardware/general.md"
+    "webrtc/Progressive Streaming vs Adpative Bit Rate Streaming.md",
+    "Collector's Fallacy.md"
   ]
 }

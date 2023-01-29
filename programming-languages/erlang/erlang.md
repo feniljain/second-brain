@@ -1,0 +1,7 @@
+- Article: https://www.evanmiller.org/why-i-program-in-erlang.html
+	- When #erlang concatenates 2 strs, it does not `realloc` and `memcpy` like most other languages, instead it has something known as `I/O` lists which store info in non-contiguous chunks of memory, which causes the operation to be O(1) rather than O(N). 
+		- Sounds like linked lists, but won't this hurt cache locality?
+	- Also it has a non-stop-the-world GC, it can have thousands of independent heaps which are garbage-collected separately.
+	- It is impossible to make a blocking network call in Erlang
+		- Interesting
+	- All data structures in Erlang are completely transparent, Knowing nothing about the library you are using, you can always inspect the contents of data structures at run-time.

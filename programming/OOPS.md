@@ -1,0 +1,2 @@
+- Object-oriented languages use inheritance to propagate behaviour to similar objects. When the behaviours are not similar, either you can allow inheritance from more than one class (multiple inheritance) or you can look to another solution. Experience has shown that multiple inheritance is complicated and problematic. Java uses interfaces to solve this problem. Ruby and Dart uses mixins.
+	  - From seven langs in seven weeks book

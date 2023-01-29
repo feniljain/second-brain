@@ -1,0 +1,2 @@
+- So apparently all calls in java are virtually dispatched, i.e. all objects have a vtable. And everything is an object in java. [source: http://joeduffyblog.com/2015/12/19/safe-native-code/]
+	- This is so heavy! Tho it still runs much more efficiently than I expected, so interested to see why is that. Is vtable lookup and jump not as much costly in comparison in java-style langs?

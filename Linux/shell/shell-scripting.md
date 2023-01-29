@@ -16,3 +16,10 @@ fi
 # e.g.
 parentBranch=${1:-staging}
 ```
+
+- `set -e` stops the script on errors 
+- `set -u` stops the script on unset variables
+- `set -o pipeline` 
+	- curl 404.com | grep 'panda'
+		- curl failed but grep succeeds
+	- above command prevents this

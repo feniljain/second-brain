@@ -1,0 +1,17 @@
+- If a command specified to the shell contains a slash ‘/’, the shell will not execute a builtin command, even if the last component of the specified command matches the name of a builtin command. Thus "./echo" will not execute builtin command.
+- All shells execute a command by forking the parent shell process and creating a child process which then runs the given command, this helps in preventing corruption/crashes in parent process if the command is malicious/misbehaves. This is like the browser making a separate thread for each of the tabs.
+	- According to POSIX, this executing a command is handled by `execve` family of system calls
+- Shell has two types of commands, `builtin` commands and `external` commands
+	- External commands e.g. `ls`, `echo`, user defined scripts, etc.
+		- A lot of famous external commands like `ls`, `echo`, `grep`, etc. are provided by OS and located under `/bin` in UNIX systems
+	  - Builtin commands are the ones which cannot be `external` commands ( I know this sounds silly, but hang on and read ). These are the ones which if run in forked child won't make the expected change. Most basic example: `cd`, if you do `cd` in the forked child process, it will not change the `dir` in parent shell process, so we do not fork in these cases and run the command in parent shell process itself. This different handling gives them the name `builtin` commands.
+- Shells provide `!` for negating the exit status codes of programs.  `true` is a program which always succeeds ( i.e. returns exit code 0 ) and `false` is a program which always fails ( i.e. returns non zero exit code ). Now if you do `! true`, it will return non-zero exit code and vice-versa for `! false`.
+	- Thing to note here is this is only possible on `! <command>` , not on `!<command>`. Second one is actually undefined in any standards. So `!` should be a separate word.
+ - You can also list commands using `;`, `||` and `&&`. 
+	 - `;` causes commands to only be executed one after other. e.g. `ls ; echo foo; echo bar`
+	 - `||` short-circuits when it finds a command which has zero exit status code. e.g. `true || echo foo` (this would not print foo)
+	 - `&&` short-circuits when it finds a command which has non-zero exit status code `false && echo foo` (this would not print foo)
+	 - They can also be nested like this: `false && echo foo || echo bar` , `true || echo foo && echo bar` , these both print bar
+  - Shells have an `exec` builtin, which does not fork the parent process and instead run the command in parent process itself and then exit. It's equal to replacing the parent process.
+  - Shells also have concept of subshells. They are realized using `()` , e.g. `(cd /tmp && pwd); pwd`.
+	  - Subshells 

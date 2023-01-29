@@ -18,5 +18,4 @@ We will follow something called `Knowledge Cycle` to overcome it:
 
  Strike the perfect balance till it hits the sweet spot to your likeness.
 
-
  #life #improvement

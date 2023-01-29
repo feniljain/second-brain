@@ -2,3 +2,9 @@
 - There's a type of hashing where hashing is locality-sensitive ( = similar inputs will receive similar hash function outputs ), and it's known as Perceptual Hashing
 	- For reverse image search Canva built, they used pHash ( popular perceptual hash function ) and hamming distance to find the difference between two images
 	- source: https://blog.quastor.org/p/canva-built-reverse-image-search-system
+ - Duck Typing
+	 - If it walks like a duck and quacks like a duck it is a duck!
+		 - Now it may also be a human walking like duck and making duck noises, we don't care!
+	 - e.g. If something has `pop` and `push` methods, we will consider it a stack
+		 - This is keeping in mind that we only define interface of stack to be these two methods.
+		 - So a dummy impl pushing and popping even a constant in stack is a stack
