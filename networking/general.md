@@ -1,0 +1,1 @@
+- "In protocol design, perfection has been reached not when there is nothing left to add, but when there is nothing left to take away." - https://ietf.org/rfc/rfc1925.txt

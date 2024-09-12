@@ -48,6 +48,7 @@ In fact, every piece of code in Ruby returns something.
 		   - `CamelCase` preferred for class names
 		   - `snake_case` for instance variables
 	 - Ruby uses mixins ( called modules here ) instead of multiple inheritance
+	 - a class is a module
   - It has a spaceship operator, a <=> b, it returns: 
 	  - -1 if b is greater 
 	  - 1 if a is greater and 
@@ -58,3 +59,8 @@ In fact, every piece of code in Ruby returns something.
 	- Named args
 	- Keyword args
 	- a variable argument needs to be **after** all your required & optional args and before any keyword arguments
+- control flow modifier keyword
+	- `next`
+		- Same as `continue`  in other languages
+		 - Interestingly it also works in blocks, so while in rust you have to use ControlFlow::Break/Continue, here you can directly say `next`
+	- it also has a `redo` keyword

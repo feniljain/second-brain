@@ -1,4 +1,4 @@
-- A stack spill is passing parameters on the stack instead of in registers. It's unavoidable when the number of parameters exceeds the number of registers available for passing parameters (the parameters spill over onto the stack) or if the parameters don't fit into the registers.
+[]()- A stack spill is passing parameters on the stack instead of in registers. It's unavoidable when the number of parameters exceeds the number of registers available for passing parameters (the parameters spill over onto the stack) or if the parameters don't fit into the registers.
 	- Maybe this is why it's advised to not have parameters greater than 5 or 6? Coz then it becomes a performance hit, you need to check registers and stack both.
 - Tail Calls ( for good explanation: https://blog.reverberate.org/2021/04/21/musttail-efficient-interpreters.html )
 	- Calling another function at the end of a function

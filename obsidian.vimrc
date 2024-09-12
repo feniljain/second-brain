@@ -6,4 +6,3 @@ nmap <Space>rh :nohl
 
 " Yank to system clipboard
 set clipboard=unnamed
-

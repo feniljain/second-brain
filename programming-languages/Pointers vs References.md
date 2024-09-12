@@ -7,5 +7,6 @@
 - One thing which is advantageous in references is that const references can be bound to temporaries, pointers cannot do this **directly**. This is one of the reasons `const &` is more convenient to use in argument lists.
 - Pointers can be used as array variables too, we can just simple `++` and we have next element with us.
 - References cannot be put in an array, while pointers can.
+- Another good source: What's the difference between references and pointers in Rust?: https://ntietz.com/blog/rust-references-vs-pointers/
 
 #basic-cs #pointers #references

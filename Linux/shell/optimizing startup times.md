@@ -1,0 +1,10 @@
+- Going through files with startup order as listed in https://htr3n.github.io/2018/07/faster-zsh/
+	- Found `. "$HOME/.cargo/env"`, seemed useful didn't touch it
+	- Then checked `.zshlogin`, found rvm load script, uninstalled rvm and removed that
+- Removing not used exports
+- Converting nvm export to be lazy-loaded using function, it took my init time from ~0.5-0.6s to ~0.1s
+	- https://peterlyons.com/problog/2018/01/zsh-lazy-loading/
+- Tried converting ghcup same way, but ran in into recursive functions somehow
+- Another nice chunk shaved was disabling auto-update checks omz does everything, it reduced time from ~0.1s to 0.08s
+- Making `compinit` not check for config updates everytime, and instead just once in a day seemed kinda dicey, so didn't go ahead with that
+- Removing `battery` and `git` plugin helped reduce more 0.01s, so now we are at 0.07s

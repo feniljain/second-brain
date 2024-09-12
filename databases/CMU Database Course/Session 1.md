@@ -1,0 +1,20 @@
+- record = tuple = one table row
+- Relation: Defines relationship between different attributes (=columns) of different entities (=tables)
+- n-ary Relation = Table with n columns
+- Some databases treat your primary key as just a unique constraint, and instead generate and store their own primary keys under the hood, e.g. sqlite
+- Foreign Key: An attribute that specifics relationship from itself to another tuple(s) in another relation
+- Relation Algebra Operations:
+	- Select
+	- Projection
+	- Union
+	- Intersection
+	- Difference
+	- Product
+	- Join
+- Select operation directly relates to `WHERE` clause in SQL
+- Projection operation directly relates to `SELECT` clause in SQL
+- Union operation directly relates to `UNION` clause in SQL
+- Intersection operation directly relates to `INTERSECT` clause in SQL
+- Difference operation directly relates to `EXCEPT` clause in SQL
+- Product operation directly relates to `CROSS JOIN` clause in SQL
+- Join operation directly relates to `JOIN` clause in SQL

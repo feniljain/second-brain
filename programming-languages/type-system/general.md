@@ -1,1 +1,4 @@
 - Understand #subtyping in typesystem by considering types as sets and types being subset of each other is subtyping!
+- "dependent types lets you manipulate types as values, which can happen at runtime or compile time, depending on the language yeah so some dependently typed languages only let you manipulate type values at compile time, this is called staging (exact term: https://en.wikipedia.org/wiki/Multi-stage_programming)"
+	- Some person on r/PL discord
+ - Linear Types: Types which need to be moved somewhere, either some function taking ownership of it, or destructuring via pattern matching, etc.

@@ -5,3 +5,4 @@
 - In terms of async #rustlang, a projection method is one which can be implemented to access fields of a pinned 
 - Prefer writeln!(io::stdout()) over println in #rustlang CLI tools, why? Here is a really good explanation by BurntShushi: https://github.com/BurntSushi/advent-of-code/issues/17
 - use `.iter()` when you just need to borrow, `.into_iter()` when you want take ownership, and `.iter_mut()` when you need to mutate elements of an iterator
+- `impl` is processed/given a concrete type at compile time itself but `dyn` is processed/give a concrete type at runtime

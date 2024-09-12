@@ -15,3 +15,10 @@
   - Shells have an `exec` builtin, which does not fork the parent process and instead run the command in parent process itself and then exit. It's equal to replacing the parent process.
   - Shells also have concept of subshells. They are realized using `()` , e.g. `(cd /tmp && pwd); pwd`.
 	  - Subshells 
+   - To connect `stdout` of one command to `stdin` of another command we use pipes: `|`
+	   - Data moves from left to right through pipes and therefore pipes are unidirectional
+ - For output redirection we use `>` , and for input redirection we use `<`
+	 - e.g. `ls -l > pipe1` , redirect ls command's output to pipe1 ( pipe1 is a named pipe here )
+	 - e.g. `cat < pipe1` , redirect pipe1 contents ( which we populated in last point ) as cat commands' input
+	  - `t >& s` is to be read as copy whatever file descriptor `s` contains into file descriptor `t` . `t` = Target and `s` = source
+   - What is `/dev/tty`:  /dev/tty is a special file, representing the terminal for the current process. So, when you `echo 1 > /dev/tty`, your message ('1') will appear on your screen. Likewise, when you `cat /dev/tty`, your subsequent input gets duplicated (until you press Ctrl-C).

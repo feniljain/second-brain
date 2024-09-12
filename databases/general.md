@@ -1,0 +1,3 @@
+- LSM Tree based DBs are better at handling write-heavy workloads at scale in comparison to their B-Tree counterparts.
+- Cassandra is a wide-column DB rather than a columnar oriented DB, nice small read on distinction between both: https://www.baeldung.com/cassandra-column-family-data-model
+- Databases have each NULL as unique entity, so no two NULLs can be compared. This comes to bite back when defining indexes on columns which have NULL values. Indexes do not treat all NULLs as same value and instead make unique indexes for all. This hurts performance, to optimize that we can use `NULL NOT DISTINCT` property which makes database treat all NULLs as same. This is currently only implemented in postgres.

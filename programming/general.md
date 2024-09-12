@@ -8,3 +8,12 @@
 	 - e.g. If something has `pop` and `push` methods, we will consider it a stack
 		 - This is keeping in mind that we only define interface of stack to be these two methods.
 		 - So a dummy impl pushing and popping even a constant in stack is a stack
+   - Code-as-data = Homoiconic
+	   - A language is **homoiconic** if a program written in it can be manipulated as data using the language, and thus the program's internal representation can be inferred just by reading the program itself. This property is often summarized by saying that the language treats "code as data".
+	- Prototype languages are based on cloning other objects, and these cloned objects are known as prototypes
+- Invariant based testing: Instead of thinking in typical debugging flow, think of invariants your program should hold, apply asserts and then try to debug again
+
+- Declarative vs imperative programming:
+	- Declarative is used in things like config, where you say I want to achieve this, or tell about final state of system and that is achieved somehow by underlying system, like giving yaml config to k8s, how does k8s achieve that we don't care. Same for SQL, how does query planner finally execute query we don't care, we care about end result.
+	- Imperative programming is your mainstream programming languages like C/C++
+	- No programming language is completely declarative or imperative, there are small places where it can be declarative like maybe saying `map` function, if language implements it using for loops and operating on same list (like rust) or making new lists as it goes (like js), or decide between both of these strategies in runtime, we don't know.
