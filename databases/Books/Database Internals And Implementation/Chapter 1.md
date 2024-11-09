@@ -1,0 +1,3 @@
+- SimpleDB setup:
+	- docker container: `docker run --rm -v ~/Projects/SimpleDB_3.4:/app --name java-playground --detach --entrypoint tail openjdk:latest -f /dev/null # https://stackoverflow.com/questions/41694329/docker-run-override-entrypoint-with-shell-script-which-accepts-arguments`
+	- Then: https://gist.github.com/ankithooda/b0d624aec9b3ed2882713d59feba4b11
